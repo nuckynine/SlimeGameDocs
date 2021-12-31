@@ -12,7 +12,7 @@ var dir_e809d7081c8183c4d656e8d959b4d7b5 =
     [ "Slime.cs", "_slime_8cs.html", [
       [ "Slime", "class_slime.html", "class_slime" ]
     ] ],
-    [ "slimejump.cs", "slimejump_8cs.html", [
+    [ "SlimeJump.cs", "_slime_jump_8cs.html", [
       [ "SlimeJump", "class_slime_jump.html", "class_slime_jump" ]
     ] ],
     [ "SlimeName.cs", "_slime_name_8cs.html", [

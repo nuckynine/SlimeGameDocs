@@ -8,7 +8,7 @@ var searchData=
   ['saveitemlist_5',['SaveItemList',['../class_inventory_manager.html#a755631926e83215860e8cfa84fdcfa2b',1,'InventoryManager']]],
   ['scroll_6',['Scroll',['../class_inventory_manager.html#aa7104f0787a639a493aa3f96f98141b5',1,'InventoryManager.Scroll()'],['../class_item_container.html#abbe4803266b477c4f437dfee7e6d4d45',1,'ItemContainer.Scroll()']]],
   ['selectslot_7',['SelectSlot',['../class_item_container_hotbar.html#a6d0ff22adcc86b1b682b1ce2907ac5b2',1,'ItemContainerHotbar']]],
-  ['sendinformation_8',['sendInformation',['../class_slime_u_i_interact.html#abb5b54f404e3a421568a8c17ef464f21',1,'SlimeUIInteract']]],
+  ['sendinformation_8',['SendInformation',['../class_slime_u_i_interact.html#a1fb7dd8350a0893b947eb18ddaae04c2',1,'SlimeUIInteract']]],
   ['setanimation_9',['setAnimation',['../class_player_grab_slime.html#aced6e455dac0158b93241ef3349c53c2',1,'PlayerGrabSlime']]],
   ['setitemreceived_10',['setItemReceived',['../struct_crafting_receipe_template.html#a18d82f45b5137e1dbc34a81490e77445',1,'CraftingReceipeTemplate']]],
   ['setmasterlevel_11',['SetMasterLevel',['../class_sound_volume.html#a9c719c10d0859ac926a8d36520d4fa31',1,'SoundVolume']]],

@@ -84,6 +84,7 @@ var annotated_dup =
     [ "SerializationManager", "class_serialization_manager.html", "class_serialization_manager" ],
     [ "setmusic", "classsetmusic.html", "classsetmusic" ],
     [ "simple_footstep", "classsimple__footstep.html", "classsimple__footstep" ],
+    [ "Singleton", "class_singleton.html", "class_singleton" ],
     [ "SingletonBase", "class_singleton_base.html", "class_singleton_base" ],
     [ "SkyboxManager", "class_skybox_manager.html", "class_skybox_manager" ],
     [ "Slime", "class_slime.html", "class_slime" ],

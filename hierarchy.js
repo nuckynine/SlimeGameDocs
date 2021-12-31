@@ -93,6 +93,7 @@ var hierarchy =
       [ "ResetPlayerPos", "class_reset_player_pos.html", null ],
       [ "ResourceItem", "class_resource_item.html", null ],
       [ "SerializationManager", "class_serialization_manager.html", null ],
+      [ "Singleton< T >", "class_singleton.html", null ],
       [ "SingletonBase< T >", "class_singleton_base.html", null ],
       [ "SkyboxManager", "class_skybox_manager.html", null ],
       [ "Slime", "class_slime.html", null ],
@@ -154,6 +155,9 @@ var hierarchy =
         [ "PlantableItem", "class_plantable_item.html", null ]
       ] ]
     ] ],
+    [ "Singleton< UIManager >", "class_singleton.html", [
+      [ "UIManager", "class_u_i_manager.html", null ]
+    ] ],
     [ "SingletonBase< SingletonStateMachine< T > >", "class_singleton_base.html", [
       [ "Patterns.SingletonStateMachine< T >", "class_patterns_1_1_singleton_state_machine.html", null ]
     ] ],
@@ -172,8 +176,5 @@ var hierarchy =
     ] ],
     [ "StaticMonoBehaviour< UIController >", "class_static_mono_behaviour.html", [
       [ "UIController", "class_u_i_controller.html", null ]
-    ] ],
-    [ "StaticMonoBehaviour< UIManager >", "class_static_mono_behaviour.html", [
-      [ "UIManager", "class_u_i_manager.html", null ]
     ] ]
 ];

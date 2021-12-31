@@ -9,7 +9,6 @@ var class_input_manager =
     [ "OnNameSlime", "class_input_manager.html#a570cefde7a15073250143e5afaa96ff7", null ],
     [ "OnNoClip", "class_input_manager.html#af1fab5d661901c65e34199bdb4213f12", null ],
     [ "OnSprint", "class_input_manager.html#a022ab55ff80cdeaed0bfc49dcedba9bf", null ],
-    [ "creativeModeAction", "class_input_manager.html#acbec194187e98759b027fbbf28fb74a4", null ],
     [ "inputSettings", "class_input_manager.html#aed8f97567dc1de74ee95bb082f5fb374", null ],
     [ "jumpAction", "class_input_manager.html#a8b6b172aa3903e5da63623e96d774b96", null ],
     [ "lookAction", "class_input_manager.html#ae615ec825fee397565816443ac4dbbdf", null ],

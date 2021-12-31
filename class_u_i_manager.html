@@ -83,52 +83,311 @@ $(document).ready(function(){initNavTree('class_u_i_manager.html',''); initResiz
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_u_i_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">UIManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Manager Instance which coordinates accessing all the GUI menus while the game is running.  
+ <a href="class_u_i_manager.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for UIManager:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_u_i_manager.png" usemap="#UIManager_map" alt=""/>
   <map id="UIManager_map" name="UIManager_map">
-<area href="class_static_mono_behaviour.html" alt="StaticMonoBehaviour&lt; UIManager &gt;" shape="rect" coords="0,0,219,24"/>
+<area href="class_singleton.html" alt="Singleton&lt; UIManager &gt;" shape="rect" coords="0,0,150,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a4a0dfbb8944f7d5e84696388db384350"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a4a0dfbb8944f7d5e84696388db384350">isPaused</a></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a067fe4993c0330fc3382e179cbe1c660"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660">Screen</a> { <br />
+&#160;&#160;<a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660aa6ea893fdc6e0771ff6d14028a6d7f3e">PauseMenu</a>
+, <a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660ae0079b9a9ef6fb6327da5ddc3634d91e">SlimeGUI</a>
+, <a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660a685ef1f0fe373c894a1e0ac8204676b8">RenameSlimeGUI</a>
+, <br />
+&#160;&#160;<a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660ac137778ad8cb6f00c91f5616a728377a">CreativeMode</a>
+<br />
+ }</td></tr>
+<tr class="separator:a067fe4993c0330fc3382e179cbe1c660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abf7929dad519aad9970ba09a56d7613d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#abf7929dad519aad9970ba09a56d7613d">ToggleMenu</a> ()</td></tr>
+<tr class="memdesc:abf7929dad519aad9970ba09a56d7613d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called from the <a class="el" href="class_input_manager.html">InputManager</a> when the OpenMenu action is triggered.  <a href="class_u_i_manager.html#abf7929dad519aad9970ba09a56d7613d">More...</a><br /></td></tr>
+<tr class="separator:abf7929dad519aad9970ba09a56d7613d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0a4eec21b3f4629f1b6e45a6470739"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#adf0a4eec21b3f4629f1b6e45a6470739">ToggleSlimeGUI</a> ()</td></tr>
+<tr class="memdesc:adf0a4eec21b3f4629f1b6e45a6470739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles the <a class="el" href="class_slime_u_i_controller.html" title="Controls the SlimeGUI object.">SlimeUIController</a> object and pauses/unpauses the game. Returns whether or not the SLimeGUI is active or not.  <a href="class_u_i_manager.html#adf0a4eec21b3f4629f1b6e45a6470739">More...</a><br /></td></tr>
+<tr class="separator:adf0a4eec21b3f4629f1b6e45a6470739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedaefa462cae710638bc0dccb5bc30e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#aedaefa462cae710638bc0dccb5bc30e8">CloseSlimeGUI</a> ()</td></tr>
+<tr class="memdesc:aedaefa462cae710638bc0dccb5bc30e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes the SlimeGUI.  <a href="class_u_i_manager.html#aedaefa462cae710638bc0dccb5bc30e8">More...</a><br /></td></tr>
+<tr class="separator:aedaefa462cae710638bc0dccb5bc30e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc8729c50f685b53b8737d20972c056"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#aefc8729c50f685b53b8737d20972c056">UpdateSlimeGUI</a> (string slimeName, int slimeLevel, int loyaltyAmount, int previousLevelRequirement, int nextLevelRequirement, float happinessAmount)</td></tr>
+<tr class="memdesc:aefc8729c50f685b53b8737d20972c056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes in and sends all relevant information for displaying the <a class="el" href="class_slime.html">Slime</a>'s current status to the <a class="el" href="class_slime_u_i_controller.html" title="Controls the SlimeGUI object.">SlimeUIController</a>,  <a href="class_u_i_manager.html#aefc8729c50f685b53b8737d20972c056">More...</a><br /></td></tr>
+<tr class="separator:aefc8729c50f685b53b8737d20972c056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e71b0f394c77d0126c8fad5eb3baa3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#ab4e71b0f394c77d0126c8fad5eb3baa3">ToggleCreativeMenu</a> ()</td></tr>
+<tr class="memdesc:ab4e71b0f394c77d0126c8fad5eb3baa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the <a class="el" href="class_input_manager.html">InputManager</a> when the CreativeMenu action is triggered. Toggles the <a class="el" href="class_creative_mode_u_i.html" title="Allows player to make coloured blocks which are added to the inventory.">CreativeModeUI</a> object, pauses/unpauses the game and binds/unbinds the mouse pointer.  <a href="class_u_i_manager.html#ab4e71b0f394c77d0126c8fad5eb3baa3">More...</a><br /></td></tr>
+<tr class="separator:ab4e71b0f394c77d0126c8fad5eb3baa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5720e958f0d90d691e654e0c8726ca0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a5720e958f0d90d691e654e0c8726ca0d">TogglePauseMenu</a> ()</td></tr>
+<tr class="memdesc:a5720e958f0d90d691e654e0c8726ca0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty hook, pending <a class="el" href="class_u_i_controller.html" title="Controls the PauseMenu object. Also, renaming the slime is running through this controller....">UIController</a> refactor  <a href="class_u_i_manager.html#a5720e958f0d90d691e654e0c8726ca0d">More...</a><br /></td></tr>
+<tr class="separator:a5720e958f0d90d691e654e0c8726ca0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6e7fd9989f10b0336ddfa0316d7ab4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#ab6e7fd9989f10b0336ddfa0316d7ab4b">OpenRenameSlime</a> (<a class="el" href="class_slime.html">Slime</a> targetSlime)</td></tr>
+<tr class="memdesc:ab6e7fd9989f10b0336ddfa0316d7ab4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Since the UI controller is currently partially handling GUI coordination duties, this is called from there. Opens the <a class="el" href="class_rename_slime_u_i.html" title="GUI object that handles the text input for renaming slimes.">RenameSlimeUI</a> object, pauses the game and releases the mouse pointer.  <a href="class_u_i_manager.html#ab6e7fd9989f10b0336ddfa0316d7ab4b">More...</a><br /></td></tr>
+<tr class="separator:ab6e7fd9989f10b0336ddfa0316d7ab4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5dcf0607c0722c22e7bae0c9c5271c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#afe5dcf0607c0722c22e7bae0c9c5271c">CloseRenameSlime</a> ()</td></tr>
+<tr class="memdesc:afe5dcf0607c0722c22e7bae0c9c5271c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deactivates the <a class="el" href="class_rename_slime_u_i.html" title="GUI object that handles the text input for renaming slimes.">RenameSlimeUI</a> object, unpauses the game and binds the mouse pointer. <br  />
+  <a href="class_u_i_manager.html#afe5dcf0607c0722c22e7bae0c9c5271c">More...</a><br /></td></tr>
+<tr class="separator:afe5dcf0607c0722c22e7bae0c9c5271c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_singleton"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_singleton')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_singleton.html">Singleton&lt; UIManager &gt;</a></td></tr>
+<tr class="memitem:a72d236a3a431af6b9cbce52964361b6b inherit pub_methods_class_singleton"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_singleton.html#a72d236a3a431af6b9cbce52964361b6b">Awake</a> ()</td></tr>
+<tr class="separator:a72d236a3a431af6b9cbce52964361b6b inherit pub_methods_class_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a4a0dfbb8944f7d5e84696388db384350"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a4a0dfbb8944f7d5e84696388db384350">isPaused</a><code> [getprivate set]</code></td></tr>
 <tr class="separator:a4a0dfbb8944f7d5e84696388db384350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
+<tr class="memitem:a9e092f39ae3ca11fd392f93a40844cf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a9e092f39ae3ca11fd392f93a40844cf4">OnEnable</a> ()</td></tr>
+<tr class="separator:a9e092f39ae3ca11fd392f93a40844cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a671473bc7b35ae3f8efa9785e6d1f678"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a671473bc7b35ae3f8efa9785e6d1f678">OnDisable</a> ()</td></tr>
+<tr class="separator:a671473bc7b35ae3f8efa9785e6d1f678"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bd6b48b13b9e14e6292e4b713f59584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a2bd6b48b13b9e14e6292e4b713f59584">Start</a> ()</td></tr>
 <tr class="separator:a2bd6b48b13b9e14e6292e4b713f59584"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e2db9f2d98e70ccc4864d3af73f1b9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a6e2db9f2d98e70ccc4864d3af73f1b9e">Update</a> ()</td></tr>
-<tr class="separator:a6e2db9f2d98e70ccc4864d3af73f1b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a159cd40969ef8e09079df9fc9ff72d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a3a159cd40969ef8e09079df9fc9ff72d">OnPausedEvent</a> ()</td></tr>
+<tr class="separator:a3a159cd40969ef8e09079df9fc9ff72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1590b103f582e5643cb6c60fbb39f94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#ad1590b103f582e5643cb6c60fbb39f94">OnUnpausedEvent</a> ()</td></tr>
+<tr class="separator:ad1590b103f582e5643cb6c60fbb39f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1130e19f063792b481b683c9f41af5b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_slime_u_i_controller.html">SlimeUIController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a1130e19f063792b481b683c9f41af5b7">slimeUIController</a></td></tr>
+<tr class="separator:a1130e19f063792b481b683c9f41af5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286f5db44648da80f722e1b097b108b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_creative_mode_u_i.html">CreativeModeUI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a286f5db44648da80f722e1b097b108b3">creativeModeUI</a></td></tr>
+<tr class="separator:a286f5db44648da80f722e1b097b108b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf88668f911e3b292c51c39735ee69db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_i_controller.html">UIController</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#aaf88668f911e3b292c51c39735ee69db">uiController</a></td></tr>
+<tr class="separator:aaf88668f911e3b292c51c39735ee69db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92c959a9a5425a8e6e1cd2c411f25914"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rename_slime_u_i.html">RenameSlimeUI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#a92c959a9a5425a8e6e1cd2c411f25914">renameSlimeUI</a></td></tr>
+<tr class="separator:a92c959a9a5425a8e6e1cd2c411f25914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ba59b4653b690143f01d1a2871bc1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660">Screen</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_manager.html#ac9ba59b4653b690143f01d1a2871bc1e">currentScreen</a></td></tr>
+<tr class="separator:ac9ba59b4653b690143f01d1a2871bc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_methods_class_static_mono_behaviour"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_static_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_static_mono_behaviour.html">StaticMonoBehaviour&lt; UIManager &gt;</a></td></tr>
-<tr class="memitem:ac10740d32078c7c5d59306ebc426e888 inherit pub_methods_class_static_mono_behaviour"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_mono_behaviour.html#ac10740d32078c7c5d59306ebc426e888">Initialize</a> ()</td></tr>
-<tr class="memdesc:ac10740d32078c7c5d59306ebc426e888 inherit pub_methods_class_static_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization override. Use this instead of awake in the derived class  <a href="class_static_mono_behaviour.html#ac10740d32078c7c5d59306ebc426e888">More...</a><br /></td></tr>
-<tr class="separator:ac10740d32078c7c5d59306ebc426e888 inherit pub_methods_class_static_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_static_mono_behaviour"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_static_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_static_mono_behaviour.html">StaticMonoBehaviour&lt; UIManager &gt;</a></td></tr>
-<tr class="memitem:a3c31626e2668465538f87172b970b1c4 inherit pro_methods_class_static_mono_behaviour"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_mono_behaviour.html#a3c31626e2668465538f87172b970b1c4">Awake</a> ()</td></tr>
-<tr class="memdesc:a3c31626e2668465538f87172b970b1c4 inherit pro_methods_class_static_mono_behaviour"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensures the gameobject persists between scenes ... Ensures only one instance can exist - destorys itself if one already exists  <a href="class_static_mono_behaviour.html#a3c31626e2668465538f87172b970b1c4">More...</a><br /></td></tr>
-<tr class="separator:a3c31626e2668465538f87172b970b1c4 inherit pro_methods_class_static_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_static_mono_behaviour"><td colspan="2" onclick="javascript:toggleInherit('properties_class_static_mono_behaviour')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_static_mono_behaviour.html">StaticMonoBehaviour&lt; UIManager &gt;</a></td></tr>
-<tr class="memitem:ae9823dbc10b216bbd0fbe6cba524d5fa inherit properties_class_static_mono_behaviour"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_static_mono_behaviour.html#ae9823dbc10b216bbd0fbe6cba524d5fa">Instance</a><code> [get]</code></td></tr>
-<tr class="separator:ae9823dbc10b216bbd0fbe6cba524d5fa inherit properties_class_static_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_singleton"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_singleton')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_singleton.html">Singleton&lt; UIManager &gt;</a></td></tr>
+<tr class="memitem:a54103e8475b2a352ee759d5732307534 inherit pub_static_attribs_class_singleton"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_singleton.html#a54103e8475b2a352ee759d5732307534">Instance</a></td></tr>
+<tr class="separator:a54103e8475b2a352ee759d5732307534 inherit pub_static_attribs_class_singleton"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00005">5</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p >Manager Instance which coordinates accessing all the GUI menus while the game is running. </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00006">6</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a067fe4993c0330fc3382e179cbe1c660" name="a067fe4993c0330fc3382e179cbe1c660"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a067fe4993c0330fc3382e179cbe1c660">&#9670;&nbsp;</a></span>Screen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660">UIManager.Screen</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a067fe4993c0330fc3382e179cbe1c660a6adf97f83acf6453d4a6a4b1070f3754" name="a067fe4993c0330fc3382e179cbe1c660a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a067fe4993c0330fc3382e179cbe1c660aa6ea893fdc6e0771ff6d14028a6d7f3e" name="a067fe4993c0330fc3382e179cbe1c660aa6ea893fdc6e0771ff6d14028a6d7f3e"></a>PauseMenu&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a067fe4993c0330fc3382e179cbe1c660ae0079b9a9ef6fb6327da5ddc3634d91e" name="a067fe4993c0330fc3382e179cbe1c660ae0079b9a9ef6fb6327da5ddc3634d91e"></a>SlimeGUI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a067fe4993c0330fc3382e179cbe1c660a685ef1f0fe373c894a1e0ac8204676b8" name="a067fe4993c0330fc3382e179cbe1c660a685ef1f0fe373c894a1e0ac8204676b8"></a>RenameSlimeGUI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a067fe4993c0330fc3382e179cbe1c660ac137778ad8cb6f00c91f5616a728377a" name="a067fe4993c0330fc3382e179cbe1c660ac137778ad8cb6f00c91f5616a728377a"></a>CreativeMode&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00008">8</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="afe5dcf0607c0722c22e7bae0c9c5271c" name="afe5dcf0607c0722c22e7bae0c9c5271c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5dcf0607c0722c22e7bae0c9c5271c">&#9670;&nbsp;</a></span>CloseRenameSlime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.CloseRenameSlime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deactivates the <a class="el" href="class_rename_slime_u_i.html" title="GUI object that handles the text input for renaming slimes.">RenameSlimeUI</a> object, unpauses the game and binds the mouse pointer. <br  />
+ </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00155">155</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="aedaefa462cae710638bc0dccb5bc30e8" name="aedaefa462cae710638bc0dccb5bc30e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedaefa462cae710638bc0dccb5bc30e8">&#9670;&nbsp;</a></span>CloseSlimeGUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.CloseSlimeGUI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Closes the SlimeGUI. </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00089">89</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a671473bc7b35ae3f8efa9785e6d1f678" name="a671473bc7b35ae3f8efa9785e6d1f678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a671473bc7b35ae3f8efa9785e6d1f678">&#9670;&nbsp;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00025">25</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a9e092f39ae3ca11fd392f93a40844cf4" name="a9e092f39ae3ca11fd392f93a40844cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e092f39ae3ca11fd392f93a40844cf4">&#9670;&nbsp;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00019">19</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a3a159cd40969ef8e09079df9fc9ff72d" name="a3a159cd40969ef8e09079df9fc9ff72d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a159cd40969ef8e09079df9fc9ff72d">&#9670;&nbsp;</a></span>OnPausedEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.OnPausedEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00164">164</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="ad1590b103f582e5643cb6c60fbb39f94" name="ad1590b103f582e5643cb6c60fbb39f94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1590b103f582e5643cb6c60fbb39f94">&#9670;&nbsp;</a></span>OnUnpausedEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.OnUnpausedEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00169">169</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="ab6e7fd9989f10b0336ddfa0316d7ab4b" name="ab6e7fd9989f10b0336ddfa0316d7ab4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6e7fd9989f10b0336ddfa0316d7ab4b">&#9670;&nbsp;</a></span>OpenRenameSlime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.OpenRenameSlime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_slime.html">Slime</a>&#160;</td>
+          <td class="paramname"><em>targetSlime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Since the UI controller is currently partially handling GUI coordination duties, this is called from there. Opens the <a class="el" href="class_rename_slime_u_i.html" title="GUI object that handles the text input for renaming slimes.">RenameSlimeUI</a> object, pauses the game and releases the mouse pointer. </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00139">139</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
 <a id="a2bd6b48b13b9e14e6292e4b713f59584" name="a2bd6b48b13b9e14e6292e4b713f59584"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2bd6b48b13b9e14e6292e4b713f59584">&#9670;&nbsp;</a></span>Start()</h2>
 
@@ -152,12 +411,153 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00009">9</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00031">31</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
 
 </div>
 </div>
-<a id="a6e2db9f2d98e70ccc4864d3af73f1b9e" name="a6e2db9f2d98e70ccc4864d3af73f1b9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e2db9f2d98e70ccc4864d3af73f1b9e">&#9670;&nbsp;</a></span>Update()</h2>
+<a id="ab4e71b0f394c77d0126c8fad5eb3baa3" name="ab4e71b0f394c77d0126c8fad5eb3baa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e71b0f394c77d0126c8fad5eb3baa3">&#9670;&nbsp;</a></span>ToggleCreativeMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.ToggleCreativeMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called by the <a class="el" href="class_input_manager.html">InputManager</a> when the CreativeMenu action is triggered. Toggles the <a class="el" href="class_creative_mode_u_i.html" title="Allows player to make coloured blocks which are added to the inventory.">CreativeModeUI</a> object, pauses/unpauses the game and binds/unbinds the mouse pointer. </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00106">106</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="abf7929dad519aad9970ba09a56d7613d" name="abf7929dad519aad9970ba09a56d7613d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf7929dad519aad9970ba09a56d7613d">&#9670;&nbsp;</a></span>ToggleMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.ToggleMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called from the <a class="el" href="class_input_manager.html">InputManager</a> when the OpenMenu action is triggered. </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00043">43</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a5720e958f0d90d691e654e0c8726ca0d" name="a5720e958f0d90d691e654e0c8726ca0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5720e958f0d90d691e654e0c8726ca0d">&#9670;&nbsp;</a></span>TogglePauseMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.TogglePauseMenu </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Empty hook, pending <a class="el" href="class_u_i_controller.html" title="Controls the PauseMenu object. Also, renaming the slime is running through this controller....">UIController</a> refactor </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00131">131</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="adf0a4eec21b3f4629f1b6e45a6470739" name="adf0a4eec21b3f4629f1b6e45a6470739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf0a4eec21b3f4629f1b6e45a6470739">&#9670;&nbsp;</a></span>ToggleSlimeGUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UIManager.ToggleSlimeGUI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Toggles the <a class="el" href="class_slime_u_i_controller.html" title="Controls the SlimeGUI object.">SlimeUIController</a> object and pauses/unpauses the game. Returns whether or not the SLimeGUI is active or not. </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00065">65</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="aefc8729c50f685b53b8737d20972c056" name="aefc8729c50f685b53b8737d20972c056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc8729c50f685b53b8737d20972c056">&#9670;&nbsp;</a></span>UpdateSlimeGUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIManager.UpdateSlimeGUI </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>slimeName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slimeLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>loyaltyAmount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>previousLevelRequirement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nextLevelRequirement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>happinessAmount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Takes in and sends all relevant information for displaying the <a class="el" href="class_slime.html">Slime</a>'s current status to the <a class="el" href="class_slime_u_i_controller.html" title="Controls the SlimeGUI object.">SlimeUIController</a>, </p>
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00098">98</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a286f5db44648da80f722e1b097b108b3" name="a286f5db44648da80f722e1b097b108b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a286f5db44648da80f722e1b097b108b3">&#9670;&nbsp;</a></span>creativeModeUI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,10 +566,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void UIManager.Update </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="class_creative_mode_u_i.html">CreativeModeUI</a> UIManager.creativeModeUI</td>
         </tr>
       </table>
   </td>
@@ -179,24 +576,128 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00014">14</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00011">11</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac9ba59b4653b690143f01d1a2871bc1e" name="ac9ba59b4653b690143f01d1a2871bc1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ba59b4653b690143f01d1a2871bc1e">&#9670;&nbsp;</a></span>currentScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660">Screen</a> UIManager.currentScreen</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00017">17</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a92c959a9a5425a8e6e1cd2c411f25914" name="a92c959a9a5425a8e6e1cd2c411f25914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92c959a9a5425a8e6e1cd2c411f25914">&#9670;&nbsp;</a></span>renameSlimeUI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rename_slime_u_i.html">RenameSlimeUI</a> UIManager.renameSlimeUI</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00013">13</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1130e19f063792b481b683c9f41af5b7" name="a1130e19f063792b481b683c9f41af5b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1130e19f063792b481b683c9f41af5b7">&#9670;&nbsp;</a></span>slimeUIController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_slime_u_i_controller.html">SlimeUIController</a> UIManager.slimeUIController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00010">10</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<a id="aaf88668f911e3b292c51c39735ee69db" name="aaf88668f911e3b292c51c39735ee69db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf88668f911e3b292c51c39735ee69db">&#9670;&nbsp;</a></span>uiController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_u_i_controller.html">UIController</a> UIManager.uiController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00012">12</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
 <a id="a4a0dfbb8944f7d5e84696388db384350" name="a4a0dfbb8944f7d5e84696388db384350"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a0dfbb8944f7d5e84696388db384350">&#9670;&nbsp;</a></span>isPaused</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool UIManager.isPaused</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00007">7</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_manager_8cs_source.html#l00015">15</a> of file <a class="el" href="_u_i_manager_8cs_source.html">UIManager.cs</a>.</p>
 
 </div>
 </div>

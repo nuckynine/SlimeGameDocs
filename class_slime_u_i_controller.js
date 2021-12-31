@@ -1,6 +1,8 @@
 var class_slime_u_i_controller =
 [
-    [ "PopUp", "class_slime_u_i_controller.html#abadbd3e7605124f71d6ac1547631101d", null ],
+    [ "Close", "class_slime_u_i_controller.html#aaaf281fd0c73310aa30ead3092f1e2d6", null ],
+    [ "Open", "class_slime_u_i_controller.html#a77f24e9566d6588990321b5477ebea87", null ],
+    [ "UpdateScreen", "class_slime_u_i_controller.html#a97c59511f8c668ec148e01729335984b", null ],
     [ "happinessSlider", "class_slime_u_i_controller.html#ae03bceb6d566b7f84620b72ee8edd34a", null ],
     [ "loyaltyAmountDisplay", "class_slime_u_i_controller.html#a52922068142bf4feffacce9adffbae88", null ],
     [ "loyaltySlider", "class_slime_u_i_controller.html#a91f4635e801415db60d8834f85d62a11", null ],

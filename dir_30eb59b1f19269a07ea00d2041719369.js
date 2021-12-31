@@ -9,6 +9,9 @@ var dir_30eb59b1f19269a07ea00d2041719369 =
     [ "PlayerConstants.cs", "_player_constants_8cs.html", [
       [ "PlayerConstants", "class_player_constants.html", "class_player_constants" ]
     ] ],
+    [ "Singleton.cs", "_singleton_8cs.html", [
+      [ "Singleton< T >", "class_singleton.html", "class_singleton" ]
+    ] ],
     [ "StaticMonoBehaviour.cs", "_static_mono_behaviour_8cs.html", [
       [ "StaticMonoBehaviour< T >", "class_static_mono_behaviour.html", "class_static_mono_behaviour" ]
     ] ]

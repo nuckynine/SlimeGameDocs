@@ -91,6 +91,9 @@ $(document).ready(function(){initNavTree('class_u_i_controller.html',''); initRe
   <div class="headertitle"><div class="title">UIController Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Controls the PauseMenu object. Also, renaming the slime is running through this controller. Refactoring needed, so that this only controls the PauseMenu object, and so that this Controller is controlled by the GUIManager. Some of the higher level functionality (like menu sounds) should also be ported to GUIManager and the individual GUI systems.  
+ <a href="class_u_i_controller.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for UIController:</div>
 <div class="dyncontent">
@@ -103,6 +106,10 @@ Inheritance diagram for UIController:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a65a13e6584b1eb9f49803991ce65f4be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a65a13e6584b1eb9f49803991ce65f4be">OpenScreen</a> ()</td></tr>
+<tr class="separator:a65a13e6584b1eb9f49803991ce65f4be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ae8d2a9e63ee6231525ad516df60bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#af8ae8d2a9e63ee6231525ad516df60bb">Close</a> ()</td></tr>
+<tr class="separator:af8ae8d2a9e63ee6231525ad516df60bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d11473c21bf4b832394a88594e6ec63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a5d11473c21bf4b832394a88594e6ec63">AddSelf</a> (<a class="el" href="class_tab_button.html">TabButton</a> button)</td></tr>
 <tr class="separator:a5d11473c21bf4b832394a88594e6ec63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a150f64a5188058484d941a8320cc6e4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a150f64a5188058484d941a8320cc6e4f">OnClick</a> (<a class="el" href="class_tab_button.html">TabButton</a> from)</td></tr>
@@ -113,8 +120,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a165940af010036001d124b0fd888e4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20935de0ad558dc1ced7bb836f821f8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a20935de0ad558dc1ced7bb836f821f8a">OpenRenameSlime</a> (<a class="el" href="class_slime.html">Slime</a> targetSlime)</td></tr>
 <tr class="separator:a20935de0ad558dc1ced7bb836f821f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96461c65d6c083ad7a0ac35aa861ffaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a96461c65d6c083ad7a0ac35aa861ffaa">CloseRenameSlime</a> ()</td></tr>
-<tr class="separator:a96461c65d6c083ad7a0ac35aa861ffaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0678cc7a3406cf19a9b59a24f41f945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#ad0678cc7a3406cf19a9b59a24f41f945">OpenRebindKeyMenu</a> ()</td></tr>
 <tr class="separator:ad0678cc7a3406cf19a9b59a24f41f945"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91a2a5bb2d93435f06ff87fd7bec26d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a91a2a5bb2d93435f06ff87fd7bec26d2">CloseRebindKeyMenu</a> ()</td></tr>
@@ -168,8 +173,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aec4752676edef38890609775b01b6d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82ceb1958ccc3505795927b52fa83566"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a82ceb1958ccc3505795927b52fa83566">pauseMenu</a></td></tr>
 <tr class="separator:a82ceb1958ccc3505795927b52fa83566"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6da923dd7a2cad3a5ac05a5d70772b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rename_slime_u_i.html">RenameSlimeUI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#ad6da923dd7a2cad3a5ac05a5d70772b7">renameSlimeUI</a></td></tr>
-<tr class="separator:ad6da923dd7a2cad3a5ac05a5d70772b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d785ab7519e1f724873195efd0eab7"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a94d785ab7519e1f724873195efd0eab7">rebindMenu</a></td></tr>
 <tr class="separator:a94d785ab7519e1f724873195efd0eab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92e052d8f8eb9578d297f91660630c14"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_u_i_controller.html#a92e052d8f8eb9578d297f91660630c14">audioSettingsMenu</a></td></tr>
@@ -188,7 +191,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ae9823dbc10b216bbd0fbe6cba524d5fa inherit properties_class_static_mono_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
+<div class="textblock"><p >Controls the PauseMenu object. Also, renaming the slime is running through this controller. Refactoring needed, so that this only controls the PauseMenu object, and so that this Controller is controlled by the GUIManager. Some of the higher level functionality (like menu sounds) should also be ported to GUIManager and the individual GUI systems. </p>
+
 <p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00007">7</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5d11473c21bf4b832394a88594e6ec63" name="a5d11473c21bf4b832394a88594e6ec63"></a>
@@ -207,7 +211,26 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00081">81</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00086">86</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+
+</div>
+</div>
+<a id="af8ae8d2a9e63ee6231525ad516df60bb" name="af8ae8d2a9e63ee6231525ad516df60bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8ae8d2a9e63ee6231525ad516df60bb">&#9670;&nbsp;</a></span>Close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIController.Close </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00062">62</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -226,7 +249,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00178">178</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00172">172</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -245,7 +268,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00134">134</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00138">138</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -264,26 +287,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00166">166</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
-
-</div>
-</div>
-<a id="a96461c65d6c083ad7a0ac35aa861ffaa" name="a96461c65d6c083ad7a0ac35aa861ffaa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96461c65d6c083ad7a0ac35aa861ffaa">&#9670;&nbsp;</a></span>CloseRenameSlime()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void UIController.CloseRenameSlime </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00152">152</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00160">160</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -302,7 +306,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00184">184</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00178">178</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -322,7 +326,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00093">93</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00098">98</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -349,7 +353,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00039">39</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00038">38</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -376,7 +380,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00034">34</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00033">33</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -403,7 +407,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00059">59</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00066">66</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -422,7 +426,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00172">172</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00166">166</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -441,7 +445,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00123">123</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00128">128</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -460,7 +464,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00160">160</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00154">154</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -480,7 +484,26 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00144">144</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00147">147</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+
+</div>
+</div>
+<a id="a65a13e6584b1eb9f49803991ce65f4be" name="a65a13e6584b1eb9f49803991ce65f4be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a13e6584b1eb9f49803991ce65f4be">&#9670;&nbsp;</a></span>OpenScreen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UIController.OpenScreen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00057">57</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -507,7 +530,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00044">44</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00043">43</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -556,7 +579,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00027">27</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00026">26</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -580,7 +603,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00024">24</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00023">23</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -668,7 +691,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00030">30</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00029">29</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -684,7 +707,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00031">31</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00030">30</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -700,7 +723,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00032">32</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00031">31</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -740,7 +763,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00029">29</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00028">28</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>
@@ -755,30 +778,6 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">GameObject UIController.rebindMenu</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00023">23</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
-
-</div>
-</div>
-<a id="ad6da923dd7a2cad3a5ac05a5d70772b7" name="ad6da923dd7a2cad3a5ac05a5d70772b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6da923dd7a2cad3a5ac05a5d70772b7">&#9670;&nbsp;</a></span>renameSlimeUI</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_rename_slime_u_i.html">RenameSlimeUI</a> UIController.renameSlimeUI</td>
         </tr>
       </table>
   </td>
@@ -828,7 +827,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00028">28</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_u_i_controller_8cs_source.html#l00027">27</a> of file <a class="el" href="_u_i_controller_8cs_source.html">UIController.cs</a>.</p>
 
 </div>
 </div>

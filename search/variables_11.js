@@ -6,7 +6,7 @@ var searchData=
   ['rebindmenu_3',['rebindMenu',['../class_u_i_controller.html#a94d785ab7519e1f724873195efd0eab7',1,'UIController']]],
   ['rebindstarted_4',['rebindStarted',['../class_key_bindings.html#a2cac2e054dac5e85ea654e5926a32392',1,'KeyBindings']]],
   ['removedblocks_5',['removedBlocks',['../class_player_data.html#a5561c8bc55d9baf4654c669ef234e7cf',1,'PlayerData.removedBlocks()'],['../class_removed_blocks.html#a3f2280f4233173059ab6f9de02f98355',1,'RemovedBlocks.removedBlocks()']]],
-  ['renameslimeui_6',['renameSlimeUI',['../class_u_i_controller.html#ad6da923dd7a2cad3a5ac05a5d70772b7',1,'UIController']]],
+  ['renameslimeui_6',['renameSlimeUI',['../class_u_i_manager.html#a92c959a9a5425a8e6e1cd2c411f25914',1,'UIManager']]],
   ['requireditems_7',['requiredItems',['../class_slime_crafting.html#a854a243f9f3c0123e8db56e0e255bce5',1,'SlimeCrafting']]],
   ['resetbutton_8',['resetButton',['../class_key_bindings.html#a9978dc721a27d9b407bbf7f25a3e05fc',1,'KeyBindings']]],
   ['resetlevel_9',['resetLevel',['../class_reset_player_pos.html#a096552af71374d362e4616cbcf3db5a8',1,'ResetPlayerPos']]],

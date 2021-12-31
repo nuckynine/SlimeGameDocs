@@ -16,9 +16,7 @@ var searchData=
   ['poopblock_13',['PoopBlock',['../class_feed_slime.html#af6f6f017b5c2eca11d25e74a5eeac3ec',1,'FeedSlime']]],
   ['poopblocks_14',['PoopBlocks',['../class_feed_slime.html#abfac4a5541a35e1420528d769495e651',1,'FeedSlime']]],
   ['popstate_15',['PopState',['../class_patterns_1_1_singleton_state_machine.html#abb24ebdeb7db4720afd47124eafa7c50',1,'Patterns.SingletonStateMachine.PopState()'],['../class_state_machine.html#a7a621a6877689bf052350450abbdd573',1,'StateMachine.PopState()']]],
-  ['popup_16',['PopUp',['../class_slime_u_i_controller.html#abadbd3e7605124f71d6ac1547631101d',1,'SlimeUIController']]],
-  ['popupgui_17',['popUpGui',['../class_slime_u_i_interact.html#a00e73a0cd9102b6d6aa9774e092efb9f',1,'SlimeUIInteract']]],
-  ['positiongradient_18',['PositionGradient',['../class_temperature_widget.html#a047756b13248b99315b9a104e78bbd39',1,'TemperatureWidget']]],
-  ['pushstate_19',['PushState',['../class_patterns_1_1_singleton_state_machine.html#a5883f4431da221ba41e12c22b36017dd',1,'Patterns.SingletonStateMachine.PushState()'],['../class_state_machine.html#a5097f1918fa71349658881fb1dd02bc6',1,'StateMachine.PushState()']]],
-  ['putdownslime_20',['PutDownSlime',['../class_slime.html#a5632861189cf2cd30d8ea8a52f12292b',1,'Slime']]]
+  ['positiongradient_16',['PositionGradient',['../class_temperature_widget.html#a047756b13248b99315b9a104e78bbd39',1,'TemperatureWidget']]],
+  ['pushstate_17',['PushState',['../class_patterns_1_1_singleton_state_machine.html#a5883f4431da221ba41e12c22b36017dd',1,'Patterns.SingletonStateMachine.PushState()'],['../class_state_machine.html#a5097f1918fa71349658881fb1dd02bc6',1,'StateMachine.PushState()']]],
+  ['putdownslime_18',['PutDownSlime',['../class_slime.html#a5632861189cf2cd30d8ea8a52f12292b',1,'Slime']]]
 ];

@@ -1,10 +1,10 @@
 var class_u_i_controller =
 [
     [ "AddSelf", "class_u_i_controller.html#a5d11473c21bf4b832394a88594e6ec63", null ],
+    [ "Close", "class_u_i_controller.html#af8ae8d2a9e63ee6231525ad516df60bb", null ],
     [ "CloseAudioSettingsMenu", "class_u_i_controller.html#aa23fcd0b7e6e3717b25043bc555654a7", null ],
     [ "CloseMenu", "class_u_i_controller.html#a165940af010036001d124b0fd888e4a5", null ],
     [ "CloseRebindKeyMenu", "class_u_i_controller.html#a91a2a5bb2d93435f06ff87fd7bec26d2", null ],
-    [ "CloseRenameSlime", "class_u_i_controller.html#a96461c65d6c083ad7a0ac35aa861ffaa", null ],
     [ "ExitGame", "class_u_i_controller.html#a35a318bfe0eb35cdf8c18f21822aa759", null ],
     [ "OnClick", "class_u_i_controller.html#a150f64a5188058484d941a8320cc6e4f", null ],
     [ "OnDisable", "class_u_i_controller.html#a633d8f20ea6d3e92999e364c6af1e6a2", null ],
@@ -14,6 +14,7 @@ var class_u_i_controller =
     [ "OpenMenu", "class_u_i_controller.html#a9e5c8e345f89227ac27007f7acd34a43", null ],
     [ "OpenRebindKeyMenu", "class_u_i_controller.html#ad0678cc7a3406cf19a9b59a24f41f945", null ],
     [ "OpenRenameSlime", "class_u_i_controller.html#a20935de0ad558dc1ced7bb836f821f8a", null ],
+    [ "OpenScreen", "class_u_i_controller.html#a65a13e6584b1eb9f49803991ce65f4be", null ],
     [ "Start", "class_u_i_controller.html#a676b3b972c33885db4565ee43f23e459", null ],
     [ "activeColor", "class_u_i_controller.html#a78b17a7216c96c59bc4f2fc4b138a9b4", null ],
     [ "activeTab", "class_u_i_controller.html#acd4b740b8fd9eabb7dff165cbfc0d22b", null ],
@@ -27,7 +28,6 @@ var class_u_i_controller =
     [ "pauseMenu", "class_u_i_controller.html#a82ceb1958ccc3505795927b52fa83566", null ],
     [ "pausemenusfx", "class_u_i_controller.html#af98f2e9f2406ba0aa3d4754a7f20753a", null ],
     [ "rebindMenu", "class_u_i_controller.html#a94d785ab7519e1f724873195efd0eab7", null ],
-    [ "renameSlimeUI", "class_u_i_controller.html#ad6da923dd7a2cad3a5ac05a5d70772b7", null ],
     [ "screens", "class_u_i_controller.html#aec4752676edef38890609775b01b6d3b", null ],
     [ "uiclick", "class_u_i_controller.html#a9139a2c6c7a9842d5722a713f253e0d5", null ]
 ];

@@ -94,6 +94,9 @@ $(document).ready(function(){initNavTree('class_key_bindings.html',''); initResi
   <div class="headertitle"><div class="title">KeyBindings Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Rebind system depends on Unity's new input system. Most of the logic is designed around getting the bindings associated with each action and displaying them correctly.  
+ <a href="class_key_bindings.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for KeyBindings:</div>
 <div class="dyncontent">
@@ -111,17 +114,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a691abe60cbe23228a192692206f0f048"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_key_bindings.html#a691abe60cbe23228a192692206f0f048">Awake</a> ()</td></tr>
 <tr class="separator:a691abe60cbe23228a192692206f0f048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21951215e2fff2fd836e450eb417610d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_key_bindings.html#a21951215e2fff2fd836e450eb417610d">ResetBindings</a> ()</td></tr>
+<tr class="memdesc:a21951215e2fff2fd836e450eb417610d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets all actions and their bindings to the default set in InputSettings.  <a href="class_key_bindings.html#a21951215e2fff2fd836e450eb417610d">More...</a><br /></td></tr>
 <tr class="separator:a21951215e2fff2fd836e450eb417610d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aad8c5e553dd1405788f37dddcaca32aa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_key_bindings.html#aad8c5e553dd1405788f37dddcaca32aa">StartRebind</a> (InputAction action, int bindingIndex, TMP_Text statusText, bool excludeMouse)</td></tr>
+<tr class="memdesc:aad8c5e553dd1405788f37dddcaca32aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when a current binding object is pressed, takes in that binding's information and starts the rebind process.  <a href="class_key_bindings.html#aad8c5e553dd1405788f37dddcaca32aa">More...</a><br /></td></tr>
 <tr class="separator:aad8c5e553dd1405788f37dddcaca32aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a199e408e5a8876dfcb03d5b3d2b177"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_key_bindings.html#a8a199e408e5a8876dfcb03d5b3d2b177">GetBindingName</a> (InputAction action, int bindingIndex)</td></tr>
+<tr class="memdesc:a8a199e408e5a8876dfcb03d5b3d2b177"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of binding from the InputSO  <a href="class_key_bindings.html#a8a199e408e5a8876dfcb03d5b3d2b177">More...</a><br /></td></tr>
 <tr class="separator:a8a199e408e5a8876dfcb03d5b3d2b177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726b7b0d6c42d6de42001c5c46bd9aaf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_key_bindings.html#a726b7b0d6c42d6de42001c5c46bd9aaf">LoadUpdatedBindings</a> (InputAction action)</td></tr>
+<tr class="memdesc:a726b7b0d6c42d6de42001c5c46bd9aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">For a given action, loads the bindings that have been saved to PlayerPrefs and overwrites the working InputSettings to use that binding.  <a href="class_key_bindings.html#a726b7b0d6c42d6de42001c5c46bd9aaf">More...</a><br /></td></tr>
 <tr class="separator:a726b7b0d6c42d6de42001c5c46bd9aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74ac0f56dffb569b50d6bceb81c6d0ea"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_key_bindings.html#a74ac0f56dffb569b50d6bceb81c6d0ea">ResetBinding</a> (InputAction action, int bindingIndex)</td></tr>
+<tr class="memdesc:a74ac0f56dffb569b50d6bceb81c6d0ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">For a given action, resets the binding to the default set in InputSettings.  <a href="class_key_bindings.html#a74ac0f56dffb569b50d6bceb81c6d0ea">More...</a><br /></td></tr>
 <tr class="separator:a74ac0f56dffb569b50d6bceb81c6d0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
@@ -159,8 +167,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a9978dc721a27d9b407bbf7f25a3e05fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00009">9</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<div class="textblock"><p >Rebind system depends on Unity's new input system. Most of the logic is designed around getting the bindings associated with each action and displaying them correctly. </p>
+
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00026">26</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a691abe60cbe23228a192692206f0f048" name="a691abe60cbe23228a192692206f0f048"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a691abe60cbe23228a192692206f0f048">&#9670;&nbsp;</a></span>Awake()</h2>
@@ -233,7 +242,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00115">115</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00174">174</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -271,7 +280,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00155">155</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p>Get the name of binding from the InputSO </p>
+
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00116">116</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -339,7 +350,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00096">96</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00167">167</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -367,7 +378,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00171">171</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p>For a given action, loads the bindings that have been saved to PlayerPrefs and overwrites the working InputSettings to use that binding. </p>
+
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00128">128</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -405,7 +418,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00181">181</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p>For a given action, resets the binding to the default set in InputSettings. </p>
+
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00140">140</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -424,7 +439,9 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00195">195</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p>Resets all actions and their bindings to the default set in InputSettings. </p>
+
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00157">157</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -452,7 +469,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00163">163</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00213">213</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -529,7 +546,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00102">102</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p>Triggered when a current binding object is pressed, takes in that binding's information and starts the rebind process. </p>
+
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00099">99</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -554,7 +573,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00017">17</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00034">34</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -578,7 +597,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00019">19</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00036">36</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -602,7 +621,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00018">18</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00035">35</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -626,7 +645,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00024">24</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00041">41</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -650,7 +669,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00023">23</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00040">40</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -674,7 +693,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00025">25</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00042">42</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
@@ -698,7 +717,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00021">21</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_key_bindings_8cs_source.html#l00038">38</a> of file <a class="el" href="_key_bindings_8cs_source.html">KeyBindings.cs</a>.</p>
 
 </div>
 </div>
