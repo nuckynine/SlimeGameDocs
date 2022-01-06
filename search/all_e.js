@@ -1,7 +1,7 @@
 var searchData=
 [
   ['nameinputfield_0',['nameInputField',['../class_rename_slime_u_i.html#a07df299d6e0140905d392e5b7570a49d',1,'RenameSlimeUI']]],
-  ['nameofslime_1',['NameOfSlime',['../class_slime_name.html#a4a0822f4a929973c0d25412d08fe03a7',1,'SlimeName']]],
+  ['nameofslime_1',['nameOfSlime',['../class_slime_name.html#accead3e08d3cba28dd75c9b1060aa079',1,'SlimeName']]],
   ['nameslimeaction_2',['nameSlimeAction',['../class_input_manager.html#a6134d380cabc9b9ebb550194f7369bfd',1,'InputManager']]],
   ['nametext_3',['nameText',['../class_container_slot.html#af39db0c6c78aeb3152e56c869eac99b9',1,'ContainerSlot.nameText()'],['../class_slime.html#a185d8cc907db264027e86713def12a75',1,'Slime.nameText()'],['../class_slime_name.html#a2225772156e0e7a03155772312b22f9d',1,'SlimeName.nameText()']]],
   ['navmeshagent_4',['navMeshAgent',['../class_slime.html#a240cbe3d95f744ebf6364f72e27f6e1d',1,'Slime']]],

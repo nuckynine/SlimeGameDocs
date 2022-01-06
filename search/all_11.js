@@ -2,7 +2,7 @@ var searchData=
 [
   ['raiseevent_0',['RaiseEvent',['../class_e_c___climate_change___s_o.html#a02a9d4153510d3bd7ad01cca94e87d41',1,'EC_ClimateChange_SO.RaiseEvent()'],['../class_e_c___float___s_o.html#a11f307af08a475f5e917b22464579acf',1,'EC_Float_SO.RaiseEvent()']]],
   ['randomnavsphere_1',['RandomNavSphere',['../class_slime_agent.html#a0921b1a25f4db967f5371196ab26dcd4',1,'SlimeAgent']]],
-  ['rateofhappinessdip_2',['RateOfHappinessDip',['../class_slime.html#a8bff7d0bc70a9b3473e41d57baafe2ac',1,'Slime']]],
+  ['rateofhappinessdip_2',['rateOfHappinessDip',['../class_slime.html#a840cc2798863ead021aa941ca545e2d0',1,'Slime']]],
   ['raycasttoblock_3',['RaycastToBlock',['../class_player_block_interaction.html#abd099fdbfd785afbab53afd74e8a9f41',1,'PlayerBlockInteraction']]],
   ['raycasttoedgeblock_4',['RaycastToEdgeBlock',['../class_player_block_interaction.html#a05879dfa26bab71316ff7cbc51f60c4f',1,'PlayerBlockInteraction']]],
   ['rebindcanceled_5',['rebindCanceled',['../class_key_bindings.html#a5742551d94955b635a8d3376b121deb2',1,'KeyBindings']]],

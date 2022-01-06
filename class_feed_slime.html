@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Slime Game: FeedSlime Class Reference</title>
+<title>Connect=ed: FeedSlime Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Slime Game
+   <div id="projectname">Connect=ed
    </div>
   </td>
  </tr>
@@ -83,14 +83,15 @@ $(document).ready(function(){initNavTree('class_feed_slime.html',''); initResiza
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_feed_slime-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">FeedSlime Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Handling of <a class="el" href="class_slime.html" title="The handling of updating and storing the main information about a slime.">Slime</a> Feeding mechanic, checking if the player can feed. If the player did feed, will handle to ouput objects and reactions.  
+ <a href="class_feed_slime.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for FeedSlime:</div>
 <div class="dyncontent">
@@ -98,32 +99,6 @@ Inheritance diagram for FeedSlime:</div>
   <img src="class_feed_slime.png" alt=""/>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ab133d49f52e20edbf1bff5b850269f69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#ab133d49f52e20edbf1bff5b850269f69">showTooltip</a> ()</td></tr>
-<tr class="separator:ab133d49f52e20edbf1bff5b850269f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f6f017b5c2eca11d25e74a5eeac3ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#af6f6f017b5c2eca11d25e74a5eeac3ec">PoopBlock</a> ()</td></tr>
-<tr class="separator:af6f6f017b5c2eca11d25e74a5eeac3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a6ef9c159cccc85560975c7fb20b143f1"><td class="memItemLeft" align="right" valign="top">KeyCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a6ef9c159cccc85560975c7fb20b143f1">keyToActivate</a> = KeyCode.E</td></tr>
-<tr class="separator:a6ef9c159cccc85560975c7fb20b143f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbc69a8f423043cd06799299d01babdf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#abbc69a8f423043cd06799299d01babdf">collectionRadius</a> = 1.2f</td></tr>
-<tr class="separator:abbc69a8f423043cd06799299d01babdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a80013d6e8d9093b389a4f7f528624f"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a7a80013d6e8d9093b389a4f7f528624f">collectionLayerMask</a></td></tr>
-<tr class="separator:a7a80013d6e8d9093b389a4f7f528624f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f83dc23de80fad50e0000dd496acf5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_item_base.html">ItemBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a9f83dc23de80fad50e0000dd496acf5d">acceptedItem</a></td></tr>
-<tr class="separator:a9f83dc23de80fad50e0000dd496acf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28819652eebdfdac874d365fb1d08dd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_item_base.html">ItemBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a28819652eebdfdac874d365fb1d08dd6">giveItem</a></td></tr>
-<tr class="separator:a28819652eebdfdac874d365fb1d08dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a440adb9db91a18c10ac7593df5b4a98d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a440adb9db91a18c10ac7593df5b4a98d">id</a> = &quot;&quot;</td></tr>
-<tr class="separator:a440adb9db91a18c10ac7593df5b4a98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74ae4537e445fb569c8c748b1ddb1ab7"><td class="memItemLeft" align="right" valign="top">AK.Wwise.Event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a74ae4537e445fb569c8c748b1ddb1ab7">slimefeedsound</a></td></tr>
-<tr class="separator:a74ae4537e445fb569c8c748b1ddb1ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fc344987aa2c68c55c33c8575f467eb"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a9fc344987aa2c68c55c33c8575f467eb">particles</a></td></tr>
-<tr class="separator:a9fc344987aa2c68c55c33c8575f467eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a5a7eaa1dc8fa48524212ff80f5f4638c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a5a7eaa1dc8fa48524212ff80f5f4638c">Start</a> ()</td></tr>
@@ -134,6 +109,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:afa3ad86587f19713985c9a2a6eb248e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82801fc0ad00755d03a7175d2d7d11b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a82801fc0ad00755d03a7175d2d7d11b1">Update</a> ()</td></tr>
 <tr class="separator:a82801fc0ad00755d03a7175d2d7d11b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1305675ee23f788cee86d7d7ebc091e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a1305675ee23f788cee86d7d7ebc091e3">ShowTooltip</a> ()</td></tr>
+<tr class="separator:a1305675ee23f788cee86d7d7ebc091e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57ec57e9cffe4e4e699bed4e1d27d72b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a57ec57e9cffe4e4e699bed4e1d27d72b">Feed</a> ()</td></tr>
 <tr class="separator:a57ec57e9cffe4e4e699bed4e1d27d72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfac4a5541a35e1420528d769495e651"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#abfac4a5541a35e1420528d769495e651">PoopBlocks</a> (int i)</td></tr>
@@ -145,16 +122,33 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a7587ecdc42fb68e1c120473988ebe8e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a7587ecdc42fb68e1c120473988ebe8e8">canFeed</a> = false</td></tr>
-<tr class="separator:a7587ecdc42fb68e1c120473988ebe8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ef9c159cccc85560975c7fb20b143f1"><td class="memItemLeft" align="right" valign="top">KeyCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a6ef9c159cccc85560975c7fb20b143f1">keyToActivate</a> = KeyCode.E</td></tr>
+<tr class="separator:a6ef9c159cccc85560975c7fb20b143f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc69a8f423043cd06799299d01babdf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#abbc69a8f423043cd06799299d01babdf">collectionRadius</a> = 1.2f</td></tr>
+<tr class="separator:abbc69a8f423043cd06799299d01babdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a80013d6e8d9093b389a4f7f528624f"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a7a80013d6e8d9093b389a4f7f528624f">collectionLayerMask</a></td></tr>
+<tr class="separator:a7a80013d6e8d9093b389a4f7f528624f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f83dc23de80fad50e0000dd496acf5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_item_base.html">ItemBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a9f83dc23de80fad50e0000dd496acf5d">acceptedItem</a></td></tr>
+<tr class="separator:a9f83dc23de80fad50e0000dd496acf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28819652eebdfdac874d365fb1d08dd6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_item_base.html">ItemBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a28819652eebdfdac874d365fb1d08dd6">giveItem</a></td></tr>
+<tr class="separator:a28819652eebdfdac874d365fb1d08dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ae4537e445fb569c8c748b1ddb1ab7"><td class="memItemLeft" align="right" valign="top">AK.Wwise.Event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a74ae4537e445fb569c8c748b1ddb1ab7">slimefeedsound</a></td></tr>
+<tr class="separator:a74ae4537e445fb569c8c748b1ddb1ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc344987aa2c68c55c33c8575f467eb"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a9fc344987aa2c68c55c33c8575f467eb">particles</a></td></tr>
+<tr class="separator:a9fc344987aa2c68c55c33c8575f467eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab189be811e23c95e1af9355d4950eb8d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#ab189be811e23c95e1af9355d4950eb8d">amountOfBlock</a> = 5</td></tr>
 <tr class="separator:ab189be811e23c95e1af9355d4950eb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aace339d76ff7fbc06dc016f4a31ecb7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_slime.html">Slime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#aace339d76ff7fbc06dc016f4a31ecb7e">slime</a></td></tr>
 <tr class="separator:aace339d76ff7fbc06dc016f4a31ecb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440adb9db91a18c10ac7593df5b4a98d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a440adb9db91a18c10ac7593df5b4a98d">id</a> = &quot;&quot;</td></tr>
+<tr class="separator:a440adb9db91a18c10ac7593df5b4a98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7587ecdc42fb68e1c120473988ebe8e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_feed_slime.html#a7587ecdc42fb68e1c120473988ebe8e8">canFeed</a> = false</td></tr>
+<tr class="separator:a7587ecdc42fb68e1c120473988ebe8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00007">7</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<div class="textblock"><p >Handling of <a class="el" href="class_slime.html" title="The handling of updating and storing the main information about a slime.">Slime</a> Feeding mechanic, checking if the player can feed. If the player did feed, will handle to ouput objects and reactions. </p>
+
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00009">9</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a57ec57e9cffe4e4e699bed4e1d27d72b" name="a57ec57e9cffe4e4e699bed4e1d27d72b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57ec57e9cffe4e4e699bed4e1d27d72b">&#9670;&nbsp;</a></span>Feed()</h2>
@@ -179,7 +173,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00074">74</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00077">77</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -206,7 +200,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00098">98</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00094">94</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -233,7 +227,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00111">111</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00107">107</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -261,7 +255,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00031">31</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00034">34</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -289,26 +283,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00041">41</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
-
-</div>
-</div>
-<a id="af6f6f017b5c2eca11d25e74a5eeac3ec" name="af6f6f017b5c2eca11d25e74a5eeac3ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6f6f017b5c2eca11d25e74a5eeac3ec">&#9670;&nbsp;</a></span>PoopBlock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void FeedSlime.PoopBlock </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00082">82</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00044">44</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -336,26 +311,34 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00086">86</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00083">83</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
-<a id="ab133d49f52e20edbf1bff5b850269f69" name="ab133d49f52e20edbf1bff5b850269f69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab133d49f52e20edbf1bff5b850269f69">&#9670;&nbsp;</a></span>showTooltip()</h2>
+<a id="a1305675ee23f788cee86d7d7ebc091e3" name="a1305675ee23f788cee86d7d7ebc091e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1305675ee23f788cee86d7d7ebc091e3">&#9670;&nbsp;</a></span>ShowTooltip()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FeedSlime.showTooltip </td>
+          <td class="memname">void FeedSlime.ShowTooltip </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00056">56</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00062">62</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -382,7 +365,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00023">23</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00026">26</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -409,7 +392,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00051">51</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00052">52</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -419,14 +402,22 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_item_base.html">ItemBase</a> FeedSlime.acceptedItem</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00012">12</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00016">16</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -450,7 +441,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00017">17</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00020">20</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -474,7 +465,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00015">15</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00024">24</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -483,14 +474,22 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">LayerMask FeedSlime.collectionLayerMask</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00011">11</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00015">15</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -499,14 +498,22 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">float FeedSlime.collectionRadius = 1.2f</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00010">10</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00014">14</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -515,14 +522,22 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_item_base.html">ItemBase</a> FeedSlime.giveItem</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00012">12</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00017">17</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -531,14 +546,22 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">string FeedSlime.id = &quot;&quot;</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00018">18</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00023">23</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -547,14 +570,22 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">KeyCode FeedSlime.keyToActivate = KeyCode.E</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00009">9</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00012">12</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -563,14 +594,22 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">GameObject FeedSlime.particles</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00021">21</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00019">19</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -594,7 +633,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00019">19</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00022">22</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>
@@ -603,14 +642,22 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">AK.Wwise.Event FeedSlime.slimefeedsound</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00020">20</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_feed_slime_8cs_source.html#l00018">18</a> of file <a class="el" href="_feed_slime_8cs_source.html">FeedSlime.cs</a>.</p>
 
 </div>
 </div>

@@ -1,6 +1,5 @@
 var class_input_manager =
 [
-    [ "Awake", "class_input_manager.html#ab6c8ec6ddddb9740199f1ca0607e240f", null ],
     [ "OnCreativeMode", "class_input_manager.html#ae072724cfcce41e7016bf924d339390e", null ],
     [ "OnJump", "class_input_manager.html#af9e5787ac6f1fddfdc42d49863028e08", null ],
     [ "OnLook", "class_input_manager.html#a52eb67594de85dbe1d639a4286058e63", null ],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Slime Game: D:/UnityProjects/connect-ed-foraging/Conncet-ed/Assets/Scripts/Systems/Slime/SlimeName.cs Source File</title>
+<title>Connect=ed: D:/UnityProjects/connect-ed-foraging/Conncet-ed/Assets/Scripts/Systems/Slime/SlimeName.cs Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Slime Game
+   <div id="projectname">Connect=ed
    </div>
   </td>
  </tr>
@@ -88,40 +88,40 @@ $(document).ready(function(){initNavTree('_slime_name_8cs_source.html',''); init
 <a href="_slime_name_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using</span> TMPro;</div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using</span> UnityEngine;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="class_slime_name.html">    4</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_slime_name.html">SlimeName</a> : MonoBehaviour</div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="class_slime_name.html#a4a0822f4a929973c0d25412d08fe03a7">    6</a></span>    <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code hl_property" href="class_slime_name.html#a4a0822f4a929973c0d25412d08fe03a7">NameOfSlime</a> { <span class="keyword">get</span>; <span class="keyword">private</span> <span class="keyword">set</span>; }</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">    7</a></span>    [SerializeField] <span class="keyword">private</span> TMP_Text <a class="code hl_variable" href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">nameText</a>;</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">    8</a></span>    <span class="keyword">private</span> Camera <a class="code hl_variable" href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">mainCamera</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_slime_name.html#af2d85c9a8e045f0bc3cce993d4f17183">   10</a></span>    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_slime_name.html#af2d85c9a8e045f0bc3cce993d4f17183">Start</a>()</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    {</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <a class="code hl_variable" href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">mainCamera</a> = Camera.main;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    }</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_slime_name.html#aea7f82609837a164c94023bc85090af0">   14</a></span>    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_slime_name.html#aea7f82609837a164c94023bc85090af0">Update</a>()</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    {</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <a class="code hl_function" href="class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7">UpdateNameRotation</a>();</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    }</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7">   19</a></span>    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7">UpdateNameRotation</a>()</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <a class="code hl_variable" href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">nameText</a>.transform.LookAt(<a class="code hl_variable" href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">mainCamera</a>.transform);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    }</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_slime_name.html#a5caca4b976e144f46e1382242fb5a781">   24</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_slime_name.html#a5caca4b976e144f46e1382242fb5a781">SetSlimeName</a>(<span class="keywordtype">string</span> name)</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    {</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <a class="code hl_property" href="class_slime_name.html#a4a0822f4a929973c0d25412d08fe03a7">NameOfSlime</a> = name;</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_variable" href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">nameText</a>.text = name;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    }</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
-<div class="ttc" id="aclass_slime_name_html"><div class="ttname"><a href="class_slime_name.html">SlimeName</a></div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00004">SlimeName.cs:5</a></div></div>
-<div class="ttc" id="aclass_slime_name_html_a2225772156e0e7a03155772312b22f9d"><div class="ttname"><a href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">SlimeName.nameText</a></div><div class="ttdeci">TMP_Text nameText</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00007">SlimeName.cs:7</a></div></div>
-<div class="ttc" id="aclass_slime_name_html_a4a0822f4a929973c0d25412d08fe03a7"><div class="ttname"><a href="class_slime_name.html#a4a0822f4a929973c0d25412d08fe03a7">SlimeName.NameOfSlime</a></div><div class="ttdeci">string NameOfSlime</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00006">SlimeName.cs:6</a></div></div>
-<div class="ttc" id="aclass_slime_name_html_a514e01ec5a39739936dcc5b5bb09db23"><div class="ttname"><a href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">SlimeName.mainCamera</a></div><div class="ttdeci">Camera mainCamera</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00008">SlimeName.cs:8</a></div></div>
-<div class="ttc" id="aclass_slime_name_html_a5caca4b976e144f46e1382242fb5a781"><div class="ttname"><a href="class_slime_name.html#a5caca4b976e144f46e1382242fb5a781">SlimeName.SetSlimeName</a></div><div class="ttdeci">void SetSlimeName(string name)</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00024">SlimeName.cs:24</a></div></div>
-<div class="ttc" id="aclass_slime_name_html_a76eaffbf502250b1b4d483f00339fcf7"><div class="ttname"><a href="class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7">SlimeName.UpdateNameRotation</a></div><div class="ttdeci">void UpdateNameRotation()</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00019">SlimeName.cs:19</a></div></div>
-<div class="ttc" id="aclass_slime_name_html_aea7f82609837a164c94023bc85090af0"><div class="ttname"><a href="class_slime_name.html#aea7f82609837a164c94023bc85090af0">SlimeName.Update</a></div><div class="ttdeci">void Update()</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00014">SlimeName.cs:14</a></div></div>
-<div class="ttc" id="aclass_slime_name_html_af2d85c9a8e045f0bc3cce993d4f17183"><div class="ttname"><a href="class_slime_name.html#af2d85c9a8e045f0bc3cce993d4f17183">SlimeName.Start</a></div><div class="ttdeci">void Start()</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00010">SlimeName.cs:10</a></div></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="class_slime_name.html">    7</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_slime_name.html">SlimeName</a> : MonoBehaviour</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_slime_name.html#accead3e08d3cba28dd75c9b1060aa079">    9</a></span>    <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code hl_property" href="class_slime_name.html#accead3e08d3cba28dd75c9b1060aa079">nameOfSlime</a> { <span class="keyword">get</span>; <span class="keyword">private</span> <span class="keyword">set</span>; }</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">   10</a></span>    [SerializeField] <span class="keyword">private</span> TMP_Text <a class="code hl_variable" href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">nameText</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">   11</a></span>    <span class="keyword">private</span> Camera <a class="code hl_variable" href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">mainCamera</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_slime_name.html#af2d85c9a8e045f0bc3cce993d4f17183">   13</a></span>    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_slime_name.html#af2d85c9a8e045f0bc3cce993d4f17183">Start</a>()</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <a class="code hl_variable" href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">mainCamera</a> = Camera.main;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    }</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_slime_name.html#aea7f82609837a164c94023bc85090af0">   17</a></span>    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_slime_name.html#aea7f82609837a164c94023bc85090af0">Update</a>()</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    {</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        <a class="code hl_function" href="class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7">UpdateNameRotation</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7">   22</a></span>    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7">UpdateNameRotation</a>()</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <a class="code hl_variable" href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">nameText</a>.transform.LookAt(<a class="code hl_variable" href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">mainCamera</a>.transform);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    }</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_slime_name.html#a5caca4b976e144f46e1382242fb5a781">   27</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_slime_name.html#a5caca4b976e144f46e1382242fb5a781">SetSlimeName</a>(<span class="keywordtype">string</span> name)</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <a class="code hl_property" href="class_slime_name.html#accead3e08d3cba28dd75c9b1060aa079">nameOfSlime</a> = name;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_variable" href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">nameText</a>.text = name;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>}</div>
+<div class="ttc" id="aclass_slime_name_html"><div class="ttname"><a href="class_slime_name.html">SlimeName</a></div><div class="ttdoc">Handling of slime name and Text Gameobject</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00007">SlimeName.cs:8</a></div></div>
+<div class="ttc" id="aclass_slime_name_html_a2225772156e0e7a03155772312b22f9d"><div class="ttname"><a href="class_slime_name.html#a2225772156e0e7a03155772312b22f9d">SlimeName.nameText</a></div><div class="ttdeci">TMP_Text nameText</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00010">SlimeName.cs:10</a></div></div>
+<div class="ttc" id="aclass_slime_name_html_a514e01ec5a39739936dcc5b5bb09db23"><div class="ttname"><a href="class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23">SlimeName.mainCamera</a></div><div class="ttdeci">Camera mainCamera</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00011">SlimeName.cs:11</a></div></div>
+<div class="ttc" id="aclass_slime_name_html_a5caca4b976e144f46e1382242fb5a781"><div class="ttname"><a href="class_slime_name.html#a5caca4b976e144f46e1382242fb5a781">SlimeName.SetSlimeName</a></div><div class="ttdeci">void SetSlimeName(string name)</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00027">SlimeName.cs:27</a></div></div>
+<div class="ttc" id="aclass_slime_name_html_a76eaffbf502250b1b4d483f00339fcf7"><div class="ttname"><a href="class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7">SlimeName.UpdateNameRotation</a></div><div class="ttdeci">void UpdateNameRotation()</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00022">SlimeName.cs:22</a></div></div>
+<div class="ttc" id="aclass_slime_name_html_accead3e08d3cba28dd75c9b1060aa079"><div class="ttname"><a href="class_slime_name.html#accead3e08d3cba28dd75c9b1060aa079">SlimeName.nameOfSlime</a></div><div class="ttdeci">string nameOfSlime</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00009">SlimeName.cs:9</a></div></div>
+<div class="ttc" id="aclass_slime_name_html_aea7f82609837a164c94023bc85090af0"><div class="ttname"><a href="class_slime_name.html#aea7f82609837a164c94023bc85090af0">SlimeName.Update</a></div><div class="ttdeci">void Update()</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00017">SlimeName.cs:17</a></div></div>
+<div class="ttc" id="aclass_slime_name_html_af2d85c9a8e045f0bc3cce993d4f17183"><div class="ttname"><a href="class_slime_name.html#af2d85c9a8e045f0bc3cce993d4f17183">SlimeName.Start</a></div><div class="ttdeci">void Start()</div><div class="ttdef"><b>Definition:</b> <a href="_slime_name_8cs_source.html#l00013">SlimeName.cs:13</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

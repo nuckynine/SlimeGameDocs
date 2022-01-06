@@ -24,7 +24,7 @@ var searchData=
   ['movespeed_21',['MoveSpeed',['../class_player_movement_controller.html#a027fff220a73c7fa2c290721b12edd71',1,'PlayerMovementController.MoveSpeed()'],['../class_player_constants.html#af280e4fd3cb4f633a319dd3eea387a64',1,'PlayerConstants.MoveSpeed()']]],
   ['mybutton_22',['myButton',['../class_delete_data_button.html#a7abeb872001bb7221c75945b5d140ecf',1,'DeleteDataButton']]],
   ['mycolor_23',['myColor',['../class_creative_item.html#a1c2a6ca9c237e61c9b55674d9485afc4',1,'CreativeItem']]],
-  ['myitem_24',['MyItem',['../class_template_placeable_block.html#a780fb4b47efae35442407f9b1ed3bdda',1,'TemplatePlaceableBlock']]],
-  ['myitem_25',['myItem',['../class_dropped_item.html#a76cebadd16bd69d7b8d775e500f9ccc3',1,'DroppedItem']]],
+  ['myitem_24',['myItem',['../class_dropped_item.html#a76cebadd16bd69d7b8d775e500f9ccc3',1,'DroppedItem']]],
+  ['myitem_25',['MyItem',['../class_template_placeable_block.html#a780fb4b47efae35442407f9b1ed3bdda',1,'TemplatePlaceableBlock']]],
   ['myoutline_26',['myOutline',['../class_plantable_space.html#a1cee72171cd6e5aa11ac44ef517dd9c8',1,'PlantableSpace']]]
 ];

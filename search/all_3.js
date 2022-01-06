@@ -10,7 +10,7 @@ var searchData=
   ['canplaceblock_7',['CanPlaceBlock',['../class_creative_item.html#a58562c5437b67af56b8d980a5a8cdaa8',1,'CreativeItem']]],
   ['charactertoolhand_8',['CharacterToolHand',['../class_character_tool_hand.html',1,'']]],
   ['charactertoolhand_2ecs_9',['CharacterToolHand.cs',['../_character_tool_hand_8cs.html',1,'']]],
-  ['checkforitemsininventory_10',['checkForItemsInInventory',['../class_slime_crafting.html#a958e63075260e3dca7579c3d9bd6f895',1,'SlimeCrafting']]],
+  ['checkforitemsininventory_10',['CheckForItemsInInventory',['../class_slime_crafting.html#ab94f3fc5aed0593e2c496efe242de24d',1,'SlimeCrafting']]],
   ['checkifvalidplacement_11',['CheckIfValidPlacement',['../class_placeable_item.html#afecc72e09a3119b23803f9c9d0ffee88',1,'PlaceableItem']]],
   ['checkingtime_12',['checkingTime',['../class_player_tooltip_harvest.html#a96ce715df69b147faab4492d98d92e83',1,'PlayerTooltipHarvest.checkingTime()'],['../class_player_tooltip_crop_harvest.html#a38a29c4e52a2d2ce8e79336f45cfe8e7',1,'PlayerTooltipCropHarvest.checkingTime()']]],
   ['checkstacksize_13',['CheckStackSize',['../class_player_block_interaction.html#a3a573b1f46dbeb82438664a1c1dffd9e',1,'PlayerBlockInteraction']]],

@@ -3,7 +3,7 @@ var searchData=
   ['tabbutton_0',['TabButton',['../class_tab_button.html',1,'']]],
   ['tabbutton_2ecs_1',['TabButton.cs',['../_tab_button_8cs.html',1,'']]],
   ['takedamage_2',['TakeDamage',['../class_resource_item.html#a6e7793962fb7dc32cce28bdabc6603ac',1,'ResourceItem']]],
-  ['takeitem_3',['takeItem',['../class_slime_crafting.html#a5b27ce5b53dcb8961db4f1acf80486c6',1,'SlimeCrafting']]],
+  ['takeitem_3',['TakeItem',['../class_slime_crafting.html#a765e1f28e66914997450e0afead66b10',1,'SlimeCrafting']]],
   ['target_4',['target',['../class_slime_agent.html#a8df8f64fc00225f964ad10b9583b38f3',1,'SlimeAgent']]],
   ['targetedblocktypes_5',['targetedBlockTypes',['../class_tool_item.html#a86ed6593cda11c4963043983371b14f6',1,'ToolItem']]],
   ['targetrotation_6',['TargetRotation',['../class_player_camera_controller.html#a502d2295377ff0126c7b818d8236928d',1,'PlayerCameraController']]],

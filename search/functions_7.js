@@ -22,7 +22,7 @@ var searchData=
   ['gettargetslime_19',['GetTargetSlime',['../class_player_name_slime.html#a96fc5d0b75e53c3ce3a304f1022ec705',1,'PlayerNameSlime']]],
   ['gettotalweight_20',['GetTotalWeight',['../class_item_stack.html#ae049fdcbdf8bb24b85ba66194ac8bcd2',1,'ItemStack']]],
   ['getweight_21',['GetWeight',['../class_item_stack.html#aa3c16c9275365740fd541fcfbae041a2',1,'ItemStack']]],
-  ['giveplayercrafteditem_22',['givePlayerCraftedItem',['../class_slime_crafting.html#a950da8fd67623b8079c703e43215d309',1,'SlimeCrafting']]],
+  ['giveplayercrafteditem_22',['GivePlayerCraftedItem',['../class_slime_crafting.html#a61fa9cfbe798d8bd3f727ddda30114ad',1,'SlimeCrafting']]],
   ['grabbingaction_23',['grabbingAction',['../class_player_movement_controller.html#af0304339080446ab2b6d6eedc3baba9c',1,'PlayerMovementController']]],
   ['groundedcheck_24',['GroundedCheck',['../class_player_movement_controller.html#a22c684ae159a7d1f948611f0b0591cf2',1,'PlayerMovementController']]]
 ];

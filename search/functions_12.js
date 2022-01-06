@@ -1,7 +1,7 @@
 var searchData=
 [
   ['takedamage_0',['TakeDamage',['../class_resource_item.html#a6e7793962fb7dc32cce28bdabc6603ac',1,'ResourceItem']]],
-  ['takeitem_1',['takeItem',['../class_slime_crafting.html#a5b27ce5b53dcb8961db4f1acf80486c6',1,'SlimeCrafting']]],
+  ['takeitem_1',['TakeItem',['../class_slime_crafting.html#a765e1f28e66914997450e0afead66b10',1,'SlimeCrafting']]],
   ['togglecreativemenu_2',['ToggleCreativeMenu',['../class_u_i_manager.html#ab4e71b0f394c77d0126c8fad5eb3baa3',1,'UIManager']]],
   ['togglemenu_3',['ToggleMenu',['../class_u_i_manager.html#abf7929dad519aad9970ba09a56d7613d',1,'UIManager']]],
   ['togglepausemenu_4',['TogglePauseMenu',['../class_u_i_manager.html#a5720e958f0d90d691e654e0c8726ca0d',1,'UIManager']]],

@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Slime Game", "index.html", [
+  [ "Connect=ed", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -55,8 +55,8 @@ var NAVTREEINDEX =
 [
 "_a_k_player_trigger_enter_8cs.html",
 "class_action_entry.html#aa8b9b01d1cb321d73019ef485f18feda",
-"class_inventory_manager.html#ac02e64c24c9ca1bff536ad03512bacb3",
-"class_player_data.html#ad2ea49f7c272ed01eec028e54dd7edfe",
+"class_inventory_manager.html#ada63026a1913a613b757c3fba0c36469",
+"class_player_data_manager.html",
 "class_slime.html#a7d854d7ed227767198e3405bd866b171",
 "class_u_i_manager.html#a067fe4993c0330fc3382e179cbe1c660a685ef1f0fe373c894a1e0ac8204676b8"
 ];

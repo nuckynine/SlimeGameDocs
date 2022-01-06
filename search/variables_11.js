@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['rateofhappinessdip_0',['RateOfHappinessDip',['../class_slime.html#a8bff7d0bc70a9b3473e41d57baafe2ac',1,'Slime']]],
+  ['rateofhappinessdip_0',['rateOfHappinessDip',['../class_slime.html#a840cc2798863ead021aa941ca545e2d0',1,'Slime']]],
   ['rebindcanceled_1',['rebindCanceled',['../class_key_bindings.html#a5742551d94955b635a8d3376b121deb2',1,'KeyBindings']]],
   ['rebindcomplete_2',['rebindComplete',['../class_key_bindings.html#aca70a6629455b832e95d6080e4f97b70',1,'KeyBindings']]],
   ['rebindmenu_3',['rebindMenu',['../class_u_i_controller.html#a94d785ab7519e1f724873195efd0eab7',1,'UIController']]],

@@ -6,5 +6,5 @@ var class_slime_name =
     [ "UpdateNameRotation", "class_slime_name.html#a76eaffbf502250b1b4d483f00339fcf7", null ],
     [ "mainCamera", "class_slime_name.html#a514e01ec5a39739936dcc5b5bb09db23", null ],
     [ "nameText", "class_slime_name.html#a2225772156e0e7a03155772312b22f9d", null ],
-    [ "NameOfSlime", "class_slime_name.html#a4a0822f4a929973c0d25412d08fe03a7", null ]
+    [ "nameOfSlime", "class_slime_name.html#accead3e08d3cba28dd75c9b1060aa079", null ]
 ];
